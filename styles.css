@@ -1,0 +1,90 @@
+body{ 
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    width: 100px;
+    margin: 5px auto;
+}
+
+button:hover,
+button:active{
+    transform: scale(1.1);
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+#banner-4,
+#banner-3,
+#banner-2,
+#banner,
+#cookie-banner {
+    width: 95vw;
+    height: 200px;
+    position: fixed;
+    bottom: 300px;
+    left: 0;
+    right: 0;
+    padding-top: 30px;
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    z-index: 999;
+    margin: 0 auto;
+}
+
+#banner-4 a,
+#banner-3 a,
+#banner-2 a,
+#banner a,
+#cookie-banner a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#banner-4 button,
+#banner-3 button,
+#banner-2 button,
+#banner button,
+#cookie-banner button {
+    background-color: #fff;
+    color: #444;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#cookie-banner button:hover {
+    background-color: #ddd;
+}
+
+#banner-4,
+#banner-3,
+#cookie-banner,
+#banner-2,
+#banner{
+    display: none;
+}
+
+
+
+
+#decline:hover,
+#decline:active{
+    display: none;
+}
+
+#accept:hover,
+#accept:active{
+    transform: scale(1.1);
+    color: red;
+}
